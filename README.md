@@ -79,6 +79,8 @@ The detailed of Linux:
 - CUDNN: 8+
 - GPU: Nvidia-A10 24G & Nvidia-V100 16G & Nvidia-A100 40G
 
+  更改app.py中os.environ['MODELSCOPE_CACHE']和easyphoto.queue(status_update_rate=1).launch()
+
 We need about 60GB available on disk (for saving weights and datasets process), please check!
 
 #### b. Download and Installation
